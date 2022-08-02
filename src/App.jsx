@@ -55,7 +55,7 @@ function App() {
           path="/"
           element={
             <Landingpage
-              placeholder="Enter an user Name..."
+              placeholder="Enter an username..."
               userName={userName}
               setUserName={setUserName}
               searchResults={searchResults}
@@ -84,7 +84,7 @@ function App() {
           path="*"
           element={
             <Landingpage
-              placeholder="Enter an user Name..."
+              placeholder="Enter an username..."
               userName={userName}
               setUserName={setUserName}
               searchResults={searchResults}

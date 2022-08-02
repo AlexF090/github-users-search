@@ -9,7 +9,9 @@ function Search({ placeholder, userName, setUserName, fetchSearch }) {
 
   useEffect(() => {
     if (userName.length > 2) {
-      fetchSearch();
+      setTimeout(() => {
+        fetchSearch();
+      }, 500);
     }
   }, [userName]);
 
